@@ -58,3 +58,7 @@ venv/
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+# Frontend
+musicController/ui/node_modules
+musicController/ui/static/frontend/main.js.LICENSE.txt
