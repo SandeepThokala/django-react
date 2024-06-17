@@ -20,13 +20,13 @@ module.exports = {
   },
   optimization: {
     minimize: true,
-  },
-  plugins: [
-    new webpack.DefinePlugin({
-      "process.env": {
-        // This has effect on the react lib size
-        NODE_ENV: JSON.stringify("production"),
-      },
-    }),
-  ],
+  }
+  // plugins: [
+  //   new webpack.DefinePlugin({
+  //     "process.env": {
+  //       // This has effect on the react lib size
+  //       NODE_ENV: JSON.stringify("production"),
+  //     },
+  //   }),
+  // ],
 };
